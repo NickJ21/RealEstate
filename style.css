@@ -1,0 +1,53 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:arial;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+p{
+    line-height:2;
+}
+img{
+    max-width:100%;
+}
+h2,h3{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+/*utilities*/
+
+
+/*header*/
+.header-init{
+    background-image:url(./img/header.jpg);
+    background-size:cover;
+    text-align:center;
+    color:white;
+    height:400px;
+}
+.header-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family: 'Times New Roman', Times, serif;
+    align-items:center;
+}
+.menu a{
+    color:white;
+    margin-right:30px;
+}
+
+
+/*main*/
+
+
+/*section*/
+
+
+/*footer*/
