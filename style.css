@@ -21,7 +21,11 @@ h2,h3{
     margin-bottom:20px;
 }
 /*utilities*/
-
+.container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 /*header*/
 .header-init{
@@ -45,9 +49,38 @@ h2,h3{
 
 
 /*main*/
+.page-item{
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+    line-height:0;
+}
+.page-item img{
+    width:40%;
+}
+.page-item p{
+    line-height:1.2;
+}
+.page-container{
+    display:flex;
+}
 
-
-/*section*/
-
+/*house and penthouse section*/
+.house-item{
+    background-color:#dedede;
+}
+.house-item-img{
+    width:100%;
+}
+.house-item-text{
+    padding-left:20px;
+}
+.btn-details{
+    display:block;
+    background-color:#c7660b;
+    padding:10px;
+    border-radius:5px;
+    text-align:center;
+}
 
 /*footer*/
