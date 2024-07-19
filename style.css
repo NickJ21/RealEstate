@@ -54,6 +54,8 @@ h2,h3{
     flex-direction:column;
     font-size:12px;
     line-height:0;
+    margin-right:10px;
+    
 }
 .page-item img{
     width:40%;
@@ -63,6 +65,7 @@ h2,h3{
 }
 .page-container{
     display:flex;
+    align-items:center;
 }
 
 /*house and penthouse section*/
@@ -70,10 +73,17 @@ h2,h3{
     background-color:#dedede;
 }
 .house-item-img{
-    width:100%;
+    /*width:100%;*/
 }
 .house-item-text{
-    padding-left:20px;
+    padding-left:10px;
+}
+.house-item-text p{
+    line-height: 1.2;
+    font-size:12px;
+}
+.nowrap{
+    white-space: nowrap;
 }
 .btn-details{
     display:block;
@@ -82,5 +92,20 @@ h2,h3{
     border-radius:5px;
     text-align:center;
 }
-
+.house-item-list{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+}
+.list-icon{
+    display:flex;
+    align-items: center;
+    height:70px;
+    width:70px;
+    justify-content: space-between;
+}
+.house-container{
+    display:flex;
+    gap:10px;
+}
 /*footer*/
