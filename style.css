@@ -4,7 +4,7 @@
     padding:0;
 }
 body{
-    font-family:arial;
+    font-family: "Roboto Condensed", sans-serif;
 }
 a{
     text-decoration:none;
@@ -35,6 +35,14 @@ h2,h3{
     color:white;
     height:400px;
 }
+.header-secondary{
+    display:flex;
+    background-color:#c7850b;
+    height:150px;
+    justify-content: space-around;
+    text-align:center;
+    padding-top:20px;
+}
 .header-flex{
     display:flex;
     flex-direction:row;
@@ -45,6 +53,11 @@ h2,h3{
 .menu a{
     color:white;
     margin-right:30px;
+}
+.menu-secondary{
+    display:flex;
+    gap:30px;
+    padding-top:10px;
 }
 
 
@@ -67,6 +80,18 @@ h2,h3{
     display:flex;
     align-items:center;
 }
+@media(max-width:758px){
+    .page-container{
+        display:flex;
+        flex-direction:column;
+    }
+    h3{
+        text-align:left;
+    }
+    p{
+        margin-bottom:10px;
+    }
+}
 
 /*house and penthouse section*/
 .house-item{
@@ -87,7 +112,7 @@ h2,h3{
 }
 .btn-details{
     display:block;
-    background-color:#c7660b;
+    background-color:#d67e0c;
     padding:10px;
     border-radius:5px;
     text-align:center;
@@ -108,4 +133,87 @@ h2,h3{
     display:flex;
     gap:10px;
 }
+
+
+/*contact*/
+.contact-container{
+    text-align:center;
+}
+.contact-container p{
+    font-size:12px;
+    line-height:1.5;
+    margin-top:5px;
+}
+.form-container{
+    background-color: #dedede;
+    margin-top:10px;
+    padding:20px;
+    width:100%;
+    border-radius:5px;
+}
+fieldset{
+    border-radius:10px;
+    padding:10px;
+    border:1px solid gray;
+    margin-bottom:20px;
+}
+.input-container{
+    margin-bottom:10px;
+}
+.input-container label{
+    display:inline-block;
+    width:10%;
+}
+.input-container input, .input-container textarea{
+    display:inline-block;
+    width:85%;
+    border:1px solid rgb(158, 158, 158);
+    padding:3px;
+}
+select{
+    display:inline-block;
+    width:85%;
+    border:1px solid rgb(158, 158, 158);
+    padding:3px;
+}
+.input-container2{
+    display:flex;
+    flex-direction: row;
+    padding:30px;
+}
+.input-container2 input{
+    display:inline-block;
+    width:85%;
+    border:1px solid rgb(158, 158, 158);
+    padding:3px;
+}
+
 /*footer*/
+footer{
+    background-color: #dedede;
+    height:200px;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-container{
+    display:flex;
+}
+.text-container p:first-of-type{
+    margin-right:20px;
+}
+.text-container p:last-of-type{
+    border-left:3px solid black;
+    padding-left:20px;
+}
+.icons-container i{
+    border:1px solid black;
+    border-radius:50%;
+    padding:10px;
+}
